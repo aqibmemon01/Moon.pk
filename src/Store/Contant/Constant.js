@@ -1,0 +1,10 @@
+const ActionType={
+    CHANGEUSERNAME:"CHANGEUSERNAME",
+    LOAD_DATA:"LOAD_DATA",
+    LOAD_CAT:"LOAD_CAT",
+    MAKE_ROWDATA:'MAKE_ROWDATA',
+    LOAD_MYCART:'LOAD_MYCART',
+    ADD_POST:'ADD_POST'
+
+}
+export default ActionType;

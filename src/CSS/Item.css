@@ -1,0 +1,280 @@
+.listdiv{
+    display:flex;
+    /* justify-content:flex-start; */
+    /* flex-direction: row */
+
+}
+.Childimg{
+    display: flex;
+}
+.Childimg > img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.ImgDiv{
+    /* width: 390px; */
+}
+
+.DetailDiv{
+    width: 520px;
+    border: 2px solid black;
+ margin-left: 20px;
+ margin-right: 20px;
+    /* position: absolute;
+    top:27%; */
+}
+.SideDiv{
+    width: 320px;
+    background-color:white;
+    /* position: absolute; */
+    /* top:27%;
+    right: 4.1%;; */
+}
+.ImgDiv > img{
+    height: 350px;
+    width: 380px;
+}
+.SideDiv > div{
+    border:1px solid black;
+    margin-top: 20px;
+}
+.SideDiv > div > div{
+    background-color: aquamarine;
+    text-align: center;
+}
+.SideDiv > div > p > img{
+    height: 15px;;
+}
+.ChkoutDivTwo{
+    width: 450px;
+    background-color:white;
+    margin-left: 30px;
+}
+.ChkoutDivOne{
+    width: 700px;
+    background-color:white;
+    margin-left: 30px;
+}
+.ChkoutDivOne > div >   div{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px;
+}
+.ChkoutDivTwo > div > .OrderSumm{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px;
+}
+.ChkoutDivOne,.ChkoutDivTwo > div{
+    border:1px solid black;
+    margin-top: 20px;
+}
+.ChkoutDivOne > div > button{
+    background-color: rgb(54, 182, 42);
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%;
+    border:none;
+}
+.ChkOutDetail{
+    height: 200px;
+    overflow: scroll;
+    /* max-height:20px ; */
+    
+}
+.PostCover{
+    border: 1px solid gray;
+}
+.CoverHead{
+    height: 60px;
+    width: 250px;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 17px;
+}
+.ViewAll{
+  height: 60px;
+  width: 250px;
+  border: none;
+  background-color: rgb(255, 145, 0);
+  color: white;
+  float:right;
+}
+.ViewAllMob{
+    display: none;
+}
+.ADDTOCART{
+    font-size: 20px;     
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 163, 0);   
+    color:white;
+    border: none;
+   }
+   .DetailDiv > div > button{
+       border: none;
+       background-color: rgb(0, 81, 255);
+       color:white;
+       font-size: 40px;
+       font-weight: bold;
+       
+   }
+   .Quantity{
+       display: flex;
+       justify-content: center;
+       background-color: rgb(0, 81, 255);
+       color:white;
+       width: 100%;
+       height: 50px;
+   }
+   .DetailDiv > div > div{
+       margin-top:-3px;
+       font-size: 35px;
+       margin-left: 30%;
+       margin-right: 30%;
+   }
+   .MyItem{
+       font-size: 20px;
+       text-align: center;
+       font-weight: bolder;
+   }
+   .MyPrice{
+       color:rgb(255, 115, 0);
+       font-size: 25px;
+       text-align: center;
+       font-weight: bolder;
+   }
+   .MyPastPrice{
+       text-align: center;
+       text-decoration-line: line-through;
+       font-size: 20px;
+       color:rgb(122, 122, 122);
+       /* font-weight: bolder; */
+   
+   }
+   
+
+
+
+
+
+
+@media (max-width:414px){
+.listdiv{
+display:block;
+}
+.DetailDiv{
+
+ width: 414px;
+ border: 2px solid black;
+ margin-top: 20px;
+ margin-left: 0px;
+ margin-right: 0px;
+    /* position: absolute;
+    top:27%; */
+}
+.ImgDiv > img{
+   height: 400px;
+   width: 400px;
+   /* margin: 50px; */
+   margin-bottom: 0 ;
+}
+
+.SideDiv{
+   /* text-align: center; */
+display: flex;
+flex-direction: column; 
+margin: auto;   
+}
+    
+.ImgDiv{
+    width: 200px;
+}
+.ImgDiv > .Childimg{
+    margin: auto;
+    margin-top:-20px;
+}
+.ImgDiv > .Childimg > img{
+    height: 100px;
+    width: 90px;
+
+}
+.CoverHead{
+    /* height: 60px; */
+    width: 100%;
+    font-size: 18px;
+    padding-top: 17px;
+}
+.ViewAll{
+  display: none;
+}
+.ViewAllMob{
+    display: block;
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    /* float:right; */
+}
+.ADDTOCART{
+ font-size: 20px;     
+ width: 100%;
+ height: 50px;
+ background-color: rgb(0, 163, 0);   
+ color:white;
+ border: none;
+}
+.DetailDiv > div > button{
+    border: none;
+    background-color: rgb(0, 81, 255);
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.Quantity{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 81, 255);
+    color:white;
+    width: 100%;
+    height: 50px;
+}
+.DetailDiv > div > div{
+    margin-top:-3px;
+    font-size: 35px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.MyItem{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.MyPrice{
+    color:rgb(255, 115, 0);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+.MyPastPrice{
+    text-align: center;
+    text-decoration-line: line-through;
+    font-size: 20px;
+    color:rgb(122, 122, 122);
+    /* font-weight: bolder; */
+
+}
+.AuthDealer{
+    display: none;
+}
+
+}
